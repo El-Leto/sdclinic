@@ -1695,6 +1695,10 @@ select.form-control:focus::-ms-value {
 select.form-control[size], select.form-control[multiple] {
   height: auto; }
 
+.control-option {
+  color: rgba(0, 0, 0, 0.8);
+}
+
 textarea.form-control {
   height: auto; }
 

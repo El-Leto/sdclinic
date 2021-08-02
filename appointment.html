@@ -94,60 +94,61 @@
 	            <h2 class="mb-4">Бесплатная консультация</h2>
 	            <p>В ближайшее время с Вами свяжется администратор и проконсультирует Вас по условиям и стоимости лечения, подберёт врача и запишет осмотр.</p>
 	          </div>
-            <form action="send.php" class="appointment-form ftco-animate" method="POST">
-	    				<div class="d-md-flex">
-		    				<div class="form-group">
-		    					<input type="text" class="form-control" name="name" placeholder="Ваше имя" required>
-		    				</div>
-		    				<div class="form-group ml-md-4">
-		    					<input type="text" class="form-control" name="surname" placeholder="Ваша фамилия">
-		    				</div>
-	    				</div>
-	    				<div class="d-md-flex">
-	    					<!-- <div class="form-group">
-		    					<div class="form-field">
-          					<div class="select-wrap">
-                      <div class="icon"><span class="ion-ios-arrow-down"></span></div>
-                      <select name="usluga" id="" class="form-control">
-                      	<option value="1">Нужна консультация</option>
-                        <option value="2">Лечение зубов</option>
-                        <option value="3">Восстановление зубов</option>
-                        <option value="4">Отбеливание зубов</option>
-                        <option value="5">Исправление прикуса</option>
-                        <option value="6">Протезирование</option>
-                        <option value="7">Удаление зубов</option>
-                        <option value="8">Детская стоматология</option>
-                      </select>
+              <form action="send.php" class="appointment-form ftco-animate" method="POST">
+                <div class="d-md-flex">
+                  <div class="form-group">
+                    <input type="text" class="form-control" name="name" placeholder="Ваше имя" required>
+                  </div>
+                  <div class="form-group ml-md-4">
+                    <input type="text" class="form-control" name="surname" placeholder="Ваша фамилия">
+                  </div>
+                </div>
+                <div class="d-md-flex">
+                  <div class="form-group">
+                    <div class="form-field">
+                      <div class="select-wrap">
+                        <div class="icon"><span class="ion-ios-arrow-down"></span></div>
+                        <select name="usluga" id="" class="form-control">
+                          <option class="control-option" value="Consultaciya">Нужна консультация</option>
+                          <option class="control-option" value="Lechenie">Лечение зубов</option>
+                          <option class="control-option" value="Vosstanovlenie">Восстановление зубов</option>
+                          <option class="control-option" value="Otbelivanie">Отбеливание зубов</option>
+                          <option class="control-option" value="Ispravlenie pricusa">Исправление прикуса</option>
+                          <option class="control-option" value="Protezirovanie">Протезирование</option>
+                          <option class="control-option" value="Udalenie">Удаление зубов</option>
+                          <option class="control-option" value="Deti">Детская стоматология</option>
+                        </select>
+                      </div>
                     </div>
-		              </div>
-		    				</div> -->
-	    					<div class="form-group ml-md-4">
-		    					<input type="text" class="form-control" name="phone" placeholder="Телефон">
-		    				</div>
-	    				</div>
-	    				<div class="d-md-flex">
-		    				<div class="form-group">
-		    					<div class="input-wrap">
-		            		<div class="icon"><span class="ion-md-calendar"></span></div>
-		            		<input type="text" class="form-control appointment_date" name="data" placeholder="Дата">
-	            		</div>
-		    				</div>
-		    				<div class="form-group ml-md-4">
-		    					<div class="input-wrap">
-		            		<div class="icon"><span class="ion-ios-clock"></span></div>
-		            		<input type="text" class="form-control appointment_time" name="time" placeholder="Время">
-	            		</div>
-		    				</div>
-	    				</div>
-	    				<div class="d-md-flex">
-	    					<div class="form-group">
-		              <textarea name="message" id="" cols="30" rows="2" class="form-control" placeholder="Комментарий"></textarea>
-		            </div>
-		            <div class="form-group ml-md-4">
-		              <input type="submit" value="Отправить заявку" class="btn btn-secondary py-3 px-4">
-		            </div>
-	    				</div>
-	    			</form>
+                  </div>
+                  <div class="form-group ml-md-4">
+                    <input type="text" class="form-control" name="phone" placeholder="Телефон">
+                  </div>
+                </div>
+                <div class="d-md-flex">
+                  <div class="form-group">
+                    <div class="input-wrap">
+                      <div class="icon"><span class="ion-md-calendar"></span></div>
+                      <input type="text" class="form-control appointment_date" name="data" placeholder="Дата">
+                    </div>
+                  </div>
+                  <div class="form-group ml-md-4">
+                    <div class="input-wrap">
+                      <div class="icon"><span class="ion-ios-clock"></span></div>
+                      <input type="text" class="form-control appointment_time" name="time" placeholder="Время">
+                    </div>
+                  </div>
+                </div>
+                <div class="d-md-flex">
+                  <div class="form-group">
+                    <textarea name="message" id="" cols="30" rows="2" class="form-control" placeholder="Комментарий"></textarea>
+                  </div>
+                  <div class="form-group ml-md-4">
+                    <input type="submit" value="Отправить заявку" class="submit-btn btn btn-secondary py-3 px-4">
+                  </div>
+                </div>
+              </form>
+        
     			</div>
     			<div class="col-lg-6 p-5 bg-counter aside-stretch">
 						<h3 class="vr">About Dr.Care Facts</h3>

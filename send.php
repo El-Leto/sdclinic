@@ -27,12 +27,15 @@ $data = trim($data);
 $time = trim($time);
 $usluga = trim($usluga);
 $message = trim($message);
-echo $name;
-echo "<br>";
-echo $surname;
-if (mail("elleto.life@gmail.com", "Заявка с сайта", "Имя:".$name.". Телефон: ".$phone))
- {     echo "сообщение успешно отправлено";
-} else {
-    echo "при отправке сообщения возникли ошибки";
-}
+mail("elleto.life@gmail.com", "Заявка с сайта", "Имя: ".$name."
+Фамилия: ".$surname."
+Телефон: ".$phone."
+Дата: ".$data."
+Время: ".$time."
+Тема: ".$usluga."
+Текст сообщения: ".$message);
+$redirect = isset($_SERVER['HTTP_REFERER'])? $_SERVER['HTTP_REFERER']:'appointment.html';
+header("Location: $redirect");
+echo "сообщение успешно отправлено";
+exit();
 ?>
