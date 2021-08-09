@@ -3413,7 +3413,8 @@ input[type="button"].btn-block {
     border-top-right-radius: 0; }
 
 .nav-pills .nav-link {
-  border-radius: 0.25rem; }
+  border-radius: 0.25rem;
+  align-items: center; }
 
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
@@ -7984,7 +7985,7 @@ a.text-dark:hover, a.text-dark:focus {
     border-color: #dee2e6; } }
 
 body {
-  font-family: "Work Sans", Arial, sans-serif;
+  font-family: "PT Sans", Arial, sans-serif;
   background: #fff;
   font-size: 16px;
   line-height: 1.8;
