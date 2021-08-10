@@ -439,6 +439,18 @@ pre {
   max-height: 340px;
   overflow-y: scroll; }
 
+div.first-time {
+  display: inline;
+}
+
+div.second-time {
+  display: inline;
+}
+
+div.weekend-time {
+  display: inline;
+}
+
 .container {
   width: 100%;
   padding-right: 15px;
@@ -9071,6 +9083,8 @@ textarea.form-control {
     font-size: 18px; }
     .ftco-footer .open-hours span {
       color: rgba(255, 255, 255, 0.3); }
+  .ftco-footer .open-hours .first-time span {
+    color: #fff; }
 
 .ftco-footer-social li {
   list-style: none;
