@@ -34,7 +34,7 @@ mail("elleto.life@gmail.com", "Заявка с сайта", "Имя: ".$name."
 Время: ".$time."
 Тема: ".$usluga."
 Текст сообщения: ".$message);
-$redirect = isset($_SERVER['HTTP_REFERER'])? $_SERVER['HTTP_REFERER']:'appointment.html';
+$redirect = isset($_SERVER['HTTP_REFERER'])? $_SERVER['HTTP_REFERER']:'zapisatsya.html';
 header("Location: $redirect");
 echo "сообщение успешно отправлено";
 exit();
