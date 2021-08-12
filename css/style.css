@@ -9795,3 +9795,43 @@ textarea.form-control {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
 
+/* .wrapper {
+  width: 100%;
+  background: white !important;
+  position: fixed;
+  z-index: 999;
+} */
+
+.navbar-position {
+  position: fixed;
+  background-color: white;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  margin-top: -163px;
+  z-index: 1000;
+}
+
+.site-position {
+  margin-top: 163px;
+}
+
+.flex-tel {
+  width: 100%;
+  justify-content: space-between;
+}
+
+.flex-tel-container {
+  width: 100%;
+  justify-content: space-between;
+}
+.flex-tel-tel {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.a-color {
+  color: rgba(0, 0, 0, 0.6);
+}
