@@ -27,53 +27,66 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <nav class="navbar py-4 navbar-expand-lg ftco_navbar navbar-light bg-light flex-row">
-    	<div class="container">
-    		<div class="row no-gutters d-flex align-items-start align-items-center px-3 px-md-0">
-    			<div class="col-lg-2 pr-4 align-items-center">
-		    		<a class="navbar-brand" href="index.html">SD<span>Clinic</span></a>
-	    		</div>
-	    		<div class="col-lg-10 d-none d-md-block">
-		    		<div class="row d-flex">
-			    		<div class="col-md-4 pr-4 d-flex topper align-items-center">
-			    			<div class="icon bg-white mr-2 d-flex justify-content-center align-items-center"><span class="icon-map"></span></div>
-						    <span class="text">г. Подольск ул. Клемента Готвальда д. 6В (ТЦ "АШАН")</span>
-					    </div>
-					    <div class="col-md pr-4 d-flex topper align-items-center">
-					    	<div class="icon bg-white mr-2 d-flex justify-content-center align-items-center"><span class="icon-calendar"></span></div>
-						    <span class="text"><span class="first-time"></span><br><span class="second-time"></span><br><span class="weekend-time"></span></span>
-					    </div>
-					    <div class="col-md pr-4 d-flex topper align-items-center">
-					    	<div class="icon bg-white mr-2 d-flex justify-content-center align-items-center"><span class="icon-phone2"></span></div>
-						    <span class="text">8 (499) 408-20-30<br>8 (916) 195-22-44 WhatsApp</span>
-					    </div>
-				    </div>
-			    </div>
-		    </div>
-		  </div>
-    </nav>
-	  <nav class="navbar navbar-expand-lg navbar-dark bg-dark ftco-navbar-light" id="ftco-navbar">
-	    <div class="container d-flex align-items-center">
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-	        <span class="oi oi-menu"></span> Меню
-	      </button>
-	      <p class="button-custom order-lg-last mb-0"><a href="zapisatsya.html" class="btn btn-secondary py-2 px-3">Записаться на прием</a></p>
-	      <div class="collapse navbar-collapse" id="ftco-nav">
-	        <ul class="navbar-nav mr-auto">
-	        	<li class="nav-item active"><a href="index.html" class="nav-link pl-0">Главная</a></li>
-	        	<li class="nav-item"><a href="about.html" class="nav-link">О нас</a></li>
-	        	<li class="nav-item"><a href="vrachi.html" class="nav-link">Врачи</a></li>
-	        	<li class="nav-item"><a href="stomatologicheskie-uslugi.html" class="nav-link">Услуги</a></li>
-	        	<li class="nav-item"><a href="tseny.html" class="nav-link">Цены</a></li>
-	        	<li class="nav-item"><a href="vopros-otvet.html" class="nav-link">Вопрос - Ответ</a></li>
-	          <li class="nav-item"><a href="kontakty.html" class="nav-link">Контакты</a></li>
-	        </ul>
-	      </div>
-	    </div>
-	  </nav>
+		<div class="flex-column d-flex navbar-position">
+			<nav class="navbar py-4 navbar-expand-lg ftco_navbar navbar-light bg-light flex-row">
+				<div class="container">
+					<div class="row no-gutters d-flex align-items-start align-items-center px-3 px-md-0 flex-tel-container">
+						<div class="col-lg-2 align-items-center d-flex flex-tel">
+							<a class="navbar-brand" href="index.html">SD<span>Clinic</span></a>
+							<div class="col-lg-10 d-sm-flex d-md-none flex-tel-tel">
+								<div class="row d-flex">
+									<div class="col-md d-flex topper align-items-center">
+										<div class="icon bg-white mr-2 d-none justify-content-center align-items-center"><span class="icon-phone2"></span></div>
+										<a class="a-color" href="tel:84994082030">8&#160;(499)&#160;408-20-30</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-10 d-none d-md-block">
+							<div class="row d-flex">
+								<div class="col-md-4 pr-4 d-flex topper align-items-center">
+									<div class="icon bg-white mr-2 d-flex justify-content-center align-items-center"><span class="icon-map"></span></div>
+									<span class="text">г. Подольск ул. Клемента Готвальда д. 6В (ТЦ "АШАН")</span>
+								</div>
+								<div class="col-md pr-4 d-flex topper align-items-center">
+									<div class="icon bg-white mr-2 d-flex justify-content-center align-items-center"><span class="icon-calendar"></span></div>
+									<span class="text"><span class="first-time"></span><br><span class="second-time"></span><br><span class="weekend-time"></span></span>
+								</div>
+								<div class="col-md pr-4 d-flex topper align-items-center">
+									<div class="icon bg-white mr-2 d-flex justify-content-center align-items-center"><span class="icon-phone2"></span></div>
+									<span class="text">
+										<a class="a-color" href="tel:84994082030">8&#160;(499)&#160;408-20-30</a><br>
+										<a class="a-color" href="https://wa.me/79161952244" target="_blank" rel="noopener">8&#160;(916)&#160;195-22-44<br>WhatsApp</a>
+									</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</nav>
+			<nav class="navbar navbar-expand-lg navbar-dark bg-dark ftco-navbar-light" id="ftco-navbar">
+				<div class="container d-flex align-items-center">
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="oi oi-menu"></span> Меню
+					</button>
+					<p class="button-custom order-lg-last mb-0"><a href="zapisatsya.html" class="btn btn-secondary py-2 px-3">Записаться на прием</a></p>
+					<div class="collapse navbar-collapse" id="ftco-nav">
+						<ul class="navbar-nav mr-auto">
+							<li class="nav-item"><a href="index.html" class="nav-link pl-0">Главная</a></li>
+							<li class="nav-item"><a href="about.html" class="nav-link">О нас</a></li>
+							<li class="nav-item"><a href="vrachi.html" class="nav-link">Врачи</a></li>
+							<li class="nav-item"><a href="stomatologicheskie-uslugi.html" class="nav-link">Услуги</a></li>
+							<li class="nav-item active"><a href="tseny.html" class="nav-link">Цены</a></li>
+							<li class="nav-item"><a href="vopros-otvet.html" class="nav-link">Вопрос - Ответ</a></li>
+							<li class="nav-item"><a href="kontakty.html" class="nav-link">Контакты</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</div>
     <!-- END nav -->
     
-    <section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg_1.jpg');" data-stellar-background-ratio="0.5">
+    <section class="hero-wrap hero-wrap-2 site-position" style="background-image: url('images/bg_1.jpg');" data-stellar-background-ratio="0.5">
       <div class="overlay"></div>
       <div class="container">
         <div class="row no-gutters slider-text align-items-center justify-content-center">
@@ -91,18 +104,18 @@
 					<div class="col-lg-4 sidebar ftco-animate">
             <div class="sidebar-box ftco-animate price-sidebar">
               <ul class="categories">
-                <li><a href="#">Терапевтическая стоматология</a></li>
-                <li><a href="#">Хирургическая стоматология</a></li>
-                <li><a href="#">Ортопедическое лечение</a></li>
-                <li><a href="#">Детская стоматология</a></li>
-                <li><a href="#">Ортодонтическое лечение</a></li>
+                <li><a href="#terapiya">Терапевтическая стоматология</a></li>
+                <li><a href="#hirurgiya">Хирургическая стоматология</a></li>
+                <li><a href="#ortopediya">Ортопедическое лечение</a></li>
+                <li><a href="#children">Детская стоматология</a></li>
+                <li><a href="#ortodontiya">Ортодонтическое лечение</a></li>
               </ul>
             </div>
             <div></div>
           </div><!-- END COL -->
 					
           <div class="col-lg-8 ftco-animate">
-            <h2 class="mb-3 text-center">Стоимость стоматологических услуг в Подольске</h2>
+            <h2 id="terapiya" class="mb-3 text-center">Стоимость стоматологических услуг в Подольске</h2>
             <table class="table">
                 <tr>
                  <td>1.1</td>
@@ -546,7 +559,7 @@
                 <td>Общее лечение одноканального зуба</td>
                 <td>4 000 руб.</td>
               </tr>
-              <tr>
+              <tr id="hirurgiya">
                 <td>7.11</td>
                 <td>Общее лечение двухканального зуба</td>
                 <td>5 000 руб.</td>
@@ -768,7 +781,7 @@
                 <td>Установка винтового имплантата Neobiotech, Hi-Tic</td>
                 <td>30 000 руб.</td>
                </tr>
-              <tr>
+              <tr id="ortopediya">
                 <td>8.45</td>
                 <td>Установка формирователя десны Neobiotech, Hi-Tic</td>
                 <td>5 000 руб.</td>
@@ -1030,7 +1043,7 @@
                 <td>Фиксация одной коронки на фосфат цемент</td>
                 <td>220 руб.</td>
               </tr>
-              <tr>
+              <tr id="children">
                 <td>12.5</td>
                 <td>Фиксация на цемент 2 отверждения</td>
                 <td>1 000 руб.</td>
@@ -1106,7 +1119,7 @@
                 <td>Удаление зубных отложений ультразвуковым аппаратом (полость рта)</td>
                 <td>2 600 руб.</td>
               </tr>
-              <tr>
+              <tr id="ortodontiya">
                 <td>14.12</td>
                 <td>Удаление молочного зуба</td>
                 <td>900 руб.</td>

@@ -27,53 +27,66 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <nav class="navbar py-4 navbar-expand-lg ftco_navbar navbar-light bg-light flex-row">
-    	<div class="container">
-    		<div class="row no-gutters d-flex align-items-start align-items-center px-3 px-md-0">
-    			<div class="col-lg-2 pr-4 align-items-center">
-		    		<a class="navbar-brand" href="index.html">SD<span>Clinic</span></a>
-	    		</div>
-	    		<div class="col-lg-10 d-none d-md-block">
-		    		<div class="row d-flex">
-			    		<div class="col-md-4 pr-4 d-flex topper align-items-center">
-			    			<div class="icon bg-white mr-2 d-flex justify-content-center align-items-center"><span class="icon-map"></span></div>
-						    <span class="text">г. Подольск ул. Клемента Готвальда д. 6В (ТЦ "АШАН")</span>
-					    </div>
-					    <div class="col-md pr-4 d-flex topper align-items-center">
-					    	<div class="icon bg-white mr-2 d-flex justify-content-center align-items-center"><span class="icon-calendar"></span></div>
-						    <span class="text">Пн-Пт: 10:00-20:00<br>Сб: 10:00-18:00 Вс: выходной</span>
-					    </div>
-					    <div class="col-md pr-4 d-flex topper align-items-center">
-					    	<div class="icon bg-white mr-2 d-flex justify-content-center align-items-center"><span class="icon-phone2"></span></div>
-						    <span class="text">8 (499) 408-20-30<br>8 (916) 195-22-44 WhatsApp</span>
-					    </div>
-				    </div>
-			    </div>
-		    </div>
-		  </div>
-    </nav>
-	  <nav class="navbar navbar-expand-lg navbar-dark bg-dark ftco-navbar-light" id="ftco-navbar">
-	    <div class="container d-flex align-items-center">
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-	        <span class="oi oi-menu"></span> Меню
-	      </button>
-	      <p class="button-custom order-lg-last mb-0"><a href="zapisatsya.html" class="btn btn-secondary py-2 px-3">Записаться на прием</a></p>
-	      <div class="collapse navbar-collapse" id="ftco-nav">
-	        <ul class="navbar-nav mr-auto">
-	        	<li class="nav-item"><a href="index.html" class="nav-link pl-0">Главная</a></li>
-	        	<li class="nav-item"><a href="about.html" class="nav-link">О нас</a></li>
-	        	<li class="nav-item"><a href="vrachi.html" class="nav-link">Врачи</a></li>
-	        	<li class="nav-item"><a href="stomatologicheskie-uslugi.html" class="nav-link">Услуги</a></li>
-	        	<li class="nav-item"><a href="tseny.html" class="nav-link">Цены</a></li>
-	        	<li class="nav-item active"><a href="vopros-otvet.html" class="nav-link">Вопрос - Ответ</a></li>
-	          <li class="nav-item"><a href="kontakty.html" class="nav-link">Контакты</a></li>
-	        </ul>
-	      </div>
-	    </div>
-	  </nav>
+		<div class="flex-column d-flex navbar-position">
+			<nav class="navbar py-4 navbar-expand-lg ftco_navbar navbar-light bg-light flex-row">
+				<div class="container">
+					<div class="row no-gutters d-flex align-items-start align-items-center px-3 px-md-0 flex-tel-container">
+						<div class="col-lg-2 align-items-center d-flex flex-tel">
+							<a class="navbar-brand" href="index.html">SD<span>Clinic</span></a>
+							<div class="col-lg-10 d-sm-flex d-md-none flex-tel-tel">
+								<div class="row d-flex">
+									<div class="col-md d-flex topper align-items-center">
+										<div class="icon bg-white mr-2 d-none justify-content-center align-items-center"><span class="icon-phone2"></span></div>
+										<a class="a-color" href="tel:84994082030">8&#160;(499)&#160;408-20-30</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-10 d-none d-md-block">
+							<div class="row d-flex">
+								<div class="col-md-4 pr-4 d-flex topper align-items-center">
+									<div class="icon bg-white mr-2 d-flex justify-content-center align-items-center"><span class="icon-map"></span></div>
+									<span class="text">г. Подольск ул. Клемента Готвальда д. 6В (ТЦ "АШАН")</span>
+								</div>
+								<div class="col-md pr-4 d-flex topper align-items-center">
+									<div class="icon bg-white mr-2 d-flex justify-content-center align-items-center"><span class="icon-calendar"></span></div>
+									<span class="text"><span class="first-time"></span><br><span class="second-time"></span><br><span class="weekend-time"></span></span>
+								</div>
+								<div class="col-md pr-4 d-flex topper align-items-center">
+									<div class="icon bg-white mr-2 d-flex justify-content-center align-items-center"><span class="icon-phone2"></span></div>
+									<span class="text">
+										<a class="a-color" href="tel:84994082030">8&#160;(499)&#160;408-20-30</a><br>
+										<a class="a-color" href="https://wa.me/79161952244" target="_blank" rel="noopener">8&#160;(916)&#160;195-22-44<br>WhatsApp</a>
+									</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</nav>
+			<nav class="navbar navbar-expand-lg navbar-dark bg-dark ftco-navbar-light" id="ftco-navbar">
+				<div class="container d-flex align-items-center">
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="oi oi-menu"></span> Меню
+					</button>
+					<p class="button-custom order-lg-last mb-0"><a href="zapisatsya.html" class="btn btn-secondary py-2 px-3">Записаться на прием</a></p>
+					<div class="collapse navbar-collapse" id="ftco-nav">
+						<ul class="navbar-nav mr-auto">
+							<li class="nav-item"><a href="index.html" class="nav-link pl-0">Главная</a></li>
+							<li class="nav-item"><a href="about.html" class="nav-link">О нас</a></li>
+							<li class="nav-item"><a href="vrachi.html" class="nav-link">Врачи</a></li>
+							<li class="nav-item"><a href="stomatologicheskie-uslugi.html" class="nav-link">Услуги</a></li>
+							<li class="nav-item"><a href="tseny.html" class="nav-link">Цены</a></li>
+							<li class="nav-item active"><a href="vopros-otvet.html" class="nav-link">Вопрос - Ответ</a></li>
+							<li class="nav-item"><a href="kontakty.html" class="nav-link">Контакты</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</div>
     <!-- END nav -->
     
-    <section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg_1.jpg');" data-stellar-background-ratio="0.5">
+    <section class="hero-wrap hero-wrap-2 site-position" style="background-image: url('images/bg_1.jpg');" data-stellar-background-ratio="0.5">
       <div class="overlay"></div>
       <div class="container">
         <div class="row no-gutters slider-text align-items-center justify-content-center">
@@ -363,6 +376,7 @@
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
   <script src="js/google-map.js"></script>
   <script src="js/main.js"></script>
+  <script src="js/snippets.js"></script>
     
   </body>
 </html>
