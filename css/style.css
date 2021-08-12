@@ -9795,13 +9795,6 @@ textarea.form-control {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
 
-/* .wrapper {
-  width: 100%;
-  background: white !important;
-  position: fixed;
-  z-index: 999;
-} */
-
 .navbar-position {
   position: fixed;
   background-color: white;
@@ -9834,4 +9827,8 @@ textarea.form-control {
 
 .a-color {
   color: rgba(0, 0, 0, 0.6);
+}
+
+table.table-width tr td:last-child {
+  width: 20%;
 }
