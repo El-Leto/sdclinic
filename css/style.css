@@ -9832,3 +9832,7 @@ textarea.form-control {
 table.table-width tr td:last-child {
   width: 20%;
 }
+
+.uslugi {
+  justify-content: center;
+}
