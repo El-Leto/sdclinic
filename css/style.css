@@ -9833,6 +9833,10 @@ table.table-width tr td:last-child {
   width: 20%;
 }
 
+table.table-width tr td:first-child {
+  width: 10%;
+}
+
 .uslugi {
   justify-content: center;
 }
