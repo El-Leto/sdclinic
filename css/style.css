@@ -8718,6 +8718,8 @@ h1, h2, h3, h4, h5,
   transition: all 0.3s ease; }
   .staff .img-wrap {
     height: 300px; }
+  .staff .img-wrapper {
+    height: 400px; }
   .staff .img {
     width: 100%;
     display: block;
@@ -9839,4 +9841,12 @@ table.table-width tr td:first-child {
 
 .uslugi {
   justify-content: center;
+}
+
+.carousel-vrachi .owl-stage-outer {
+  height: 600px;
+}
+
+.vrachi-carousel {
+  margin-bottom: 100px;
 }
