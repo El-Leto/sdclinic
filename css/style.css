@@ -9850,3 +9850,8 @@ table.table-width tr td:first-child {
 .vrachi-carousel {
   margin-bottom: 100px;
 }
+
+.vrach-photo {
+  height: 500px;
+  margin-top: 30px;
+}
