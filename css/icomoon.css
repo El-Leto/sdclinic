@@ -1791,6 +1791,9 @@
 .icon-whatsapp:before {
   content: "\f232";
 }
+.icon-whatsapp-btn:before {
+  content: "\f232";
+}
 .icon-server:before {
   content: "\f233";
 }
