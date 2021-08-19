@@ -9887,19 +9887,17 @@ table.table-width tr td:first-child {
 }
 
 .whatsapp-btn {
+  display: none;
   width: 60px;
   height: 60px;
   border-radius: 50%;
   z-index: 999;
-  display: flex;
   cursor: pointer;
   position: fixed;
   bottom: 120px;
   right: 20px;
   background-color: #43d854;
   opacity: 0.6;
-  justify-content: center;
-  align-items: center;
 }
 
 .whatsapp-btn:hover {
@@ -9909,4 +9907,7 @@ table.table-width tr td:first-child {
 .icon-whatsapp-btn::before {
   color: white;
   font-size: 42px;
+  line-height: 1.4;
+  display: flex;
+  justify-content: center;
 }
