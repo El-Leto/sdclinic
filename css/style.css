@@ -8513,8 +8513,9 @@ h1, h2, h3, h4, h5,
     border: 1px solid #69cb6a;
     color: #fff; }
     .btn.btn-secondary:hover, .btn.btn-secondary:focus, .btn.btn-secondary:active {
+      background: transparent;
       border: 1px solid #69cb6a;
-      color: #fff; }
+      color: #69cb6a; }
 
 .btn-custom {
   font-weight: 500;
