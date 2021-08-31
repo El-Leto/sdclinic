@@ -2562,7 +2562,7 @@ input[type="button"].btn-block {
 
 .dropdown-menu {
   position: absolute;
-  top: 100%;
+  top: 53px;
   left: 0;
   z-index: 1000;
   display: none;
@@ -2575,9 +2575,7 @@ input[type="button"].btn-block {
   text-align: left;
   list-style: none;
   background-color: #fff;
-  background-clip: padding-box;
-  border: 1px solid rgba(0, 0, 0, 0.15);
-  border-radius: 0.25rem; }
+  background-clip: padding-box;}
 
 .dropdown-menu-right {
   right: 0;
@@ -9836,6 +9834,10 @@ table.table-width tr td:last-child {
   width: 20%;
 }
 
+table.table-width-low tr td:last-child {
+  width: 20%;
+}
+
 table.table-width tr td:first-child {
   width: 10%;
 }
@@ -9919,4 +9921,9 @@ table.table-width tr td:first-child {
 
 .litc-img {
   margin-bottom: 3px;
+}
+
+.review {
+  margin-top: 50px;
+  margin-bottom: 100px;
 }
