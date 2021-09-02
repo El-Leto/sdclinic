@@ -9283,6 +9283,11 @@ textarea.form-control {
     height: 120px;
     border-radius: 5px;
     position: relative; }
+  .testimony-wrap .answer {
+    width: 70px;
+    height: 120px;
+    border-radius: 5px;
+    position: relative; }
   .testimony-wrap .text {
     width: calc(100% - 120px);
     position: relative; }
@@ -9474,6 +9479,10 @@ textarea.form-control {
     font-size: 18px;
     padding-top: 2px;
     color: white; }
+
+.contact-section {
+  padding: 2em 0;
+}
 
 .contact-section .contact-info p a {
   color: #1a1a1a; }
@@ -9926,4 +9935,26 @@ table.table-width tr td:first-child {
 .review {
   margin-top: 50px;
   margin-bottom: 100px;
+}
+
+.flex-raboty {
+  align-items: center;
+  justify-content: center;
+}
+
+.raboty-img {
+  margin-right: 5px;
+}
+
+.top-section {
+  padding-top: 7em;
+  padding-bottom: 2em;
+}
+
+.article-text {
+  max-width: 70%;
+}
+
+.article-image {
+  max-width: 30%;
 }
