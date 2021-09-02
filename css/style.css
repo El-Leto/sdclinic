@@ -9958,3 +9958,33 @@ table.table-width tr td:first-child {
 .article-image {
   max-width: 30%;
 }
+
+.review-form {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.review-textarea {
+  width: 100%;
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  background-color: rgba(37, 139, 229, 0.1);
+  color: rgba(0, 0, 0, 0.6);
+  border-radius: 0.5rem;
+}
+
+.review-submit {
+  width: 30%;
+  border: none;
+  border-radius: 1.25rem;
+  background-color: var(--blue);
+  color: white;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.review-submit:hover {
+  background-color: #69cb6a;
+}
