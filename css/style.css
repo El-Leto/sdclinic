@@ -8445,6 +8445,10 @@ h1, h2, h3, h4, h5,
         .owl-carousel.home-slider .owl-dots .owl-dot.active {
           background: #fff; }
 
+.owl-carousel .owl-stage, .owl-carousel.owl-drag .owl-item {
+-ms-touch-action: auto;
+    touch-action: auto; }
+
 .container {
   max-width: 1230px; }
 
@@ -10010,4 +10014,8 @@ table.table-width tr td:first-child {
 
 .dop-link:hover {
   color: #3c97e8;
+}
+
+.no-href {
+  color: rgba(255, 255, 255, 0.7) !important;
 }
