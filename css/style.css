@@ -9937,6 +9937,11 @@ table.table-width tr td:first-child {
   margin-bottom: 100px;
 }
 
+.review:last-child {
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
 .flex-raboty {
   align-items: center;
   justify-content: center;
