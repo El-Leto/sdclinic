@@ -10018,3 +10018,23 @@ table.table-width tr td:first-child {
 .no-href {
   color: rgba(255, 255, 255, 0.7) !important;
 }
+
+.price-wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 30px;
+  background-color: #ebf5fd;
+  padding: 30px 40px;
+  margin-bottom: 20px;
+}
+
+.price-name {
+  width: 50%;
+  margin: 0;
+}
+
+.price-tsena {
+  margin: 0;
+}
