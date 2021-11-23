@@ -10030,9 +10030,23 @@ table.table-width tr td:first-child {
   margin-bottom: 20px;
 }
 
+@media (max-width: 767px) {
+  .price-wrap {
+    flex-direction: column;
+    text-align: center;
+    font-size: 22px;
+  }
+}
+
 .price-name {
   width: 50%;
   margin: 0;
+}
+
+@media (max-width: 767px) {
+  .price-name {
+    width: 100%;
+  }
 }
 
 .price-tsena {
