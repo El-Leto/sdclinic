@@ -10056,3 +10056,81 @@ table.table-width tr td:first-child {
 .price-title {
   padding: 20px 30px;
 }
+
+.about-us {
+  margin-top: 112px;
+  margin-bottom: 193px;
+  position: relative;
+}
+
+.about-us__image {
+  width: 100%;
+  height: auto;
+}
+
+.about-us__desc {
+  margin-left: auto;
+  width: 670px;
+  background-color: #3c97e8;
+  position: absolute;
+  content: "";
+  right: 15px;
+  top: 325px;
+  padding: 24px;
+}
+
+@media (max-width: 1150px) {
+  .about-us__desc {
+    top: 270px;
+  }
+}
+
+@media (max-width: 992px) {
+  .about-us__desc {
+    top: 230px;
+  }
+
+  .about-us {
+    margin-top: 80px;
+    margin-bottom: 153px;
+  }
+}
+
+@media (max-width: 880px) {
+  .about-us__desc {
+    top: 200px;
+  }
+}
+
+@media (max-width: 768px) {
+  .about-us__desc {
+   position: static;
+   width: 100%;
+  }
+
+  .about-us {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .no-mobile {
+    display: none;
+  }
+}
+
+.about-us__desc-text {
+  font-size: 28px;
+}
+
+.about-us__text {
+  font-size: 16px;
+  line-height: 22px;
+  font-style: italic;
+  font-weight: 500;
+}
+
+.about-us__author {
+  font-size: 16px;
+  line-height: 22px;
+  margin: 0;
+}
