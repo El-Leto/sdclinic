@@ -34,7 +34,7 @@
 				<div class="container">
 					<div class="row no-gutters d-flex align-items-start align-items-center px-3 px-md-0 flex-tel-container">
 						<div class="col-lg-2 align-items-center d-flex flex-tel">
-							<a class="navbar-brand" href="index.html"><img src="images/logo-long.png" width="150" height="60"></a>
+							<a class="navbar-brand" href="#"><img src="images/logo-long.png" width="150" height="60"></a>
 							<div class="col-lg-10 d-sm-flex d-md-none flex-tel-tel">
 								<div class="row d-flex">
 									<div class="col-md d-flex topper align-items-center">
@@ -59,7 +59,10 @@
 									<span class="text">
 										<a class="a-color" href="tel:+74994082030">8&#160;(499)&#160;408-20-30</a><br>
 										<a class="a-color" href="tel:+79161952244">8&#160;(916)&#160;195-22-44</a><br>
-										<a class="a-color" href="https://wa.me/79161952244" target="_blank" rel="noopener">WhatsApp</a>
+										<div class="d-flex">
+											<a class="a-color mr-2" href="https://wa.me/79161952244" target="_blank" rel="noopener">WhatsApp</a>
+											<a class="a-color" href="https://t.me/sdclinic32" target="_blank" rel="noopener">Telegram</a>
+										</div>
 									</span>
 								</div>
 							</div>
@@ -719,12 +722,12 @@
     <section class="ftco-section ftco-no-pt ftco-no-pb ftco-counter img" id="section-counter" style="background-image: url(images/bg_3.jpg);" data-stellar-background-ratio="0.5">
     	<div class="container">
     		<div class="row">
-    			<div class="col-md-6 py-5 pr-md-5">
+    			<div class="col-lg-6 py-5 pr-md-5">
 	          <div class="heading-section heading-section-white ftco-animate mb-5">
 	            <h2 class="mb-4">Запись к стоматологу</h2>
 	            <p>В ближайшее время с Вами свяжется администратор и проконсультирует Вас по условиям и стоимости лечения, подберёт врача и запишет на осмотр.</p>  
-				<span class="subheading">Новым пациентам консультация бесплатно!</span>
-			</div>
+							<span class="subheading">Новым пациентам консультация бесплатно!</span>
+						</div>
 	          <form action="send.php" class="appointment-form ftco-animate" method="POST">
 							<div class="d-md-flex">
 								<div class="form-group">
@@ -783,49 +786,47 @@
     			</div>
     			<div class="col-lg-6 p-5 bg-counter aside-stretch">
 						<h3 class="vr">Скляров Дентал Клиник</h3>
-    				<div class="row pt-4 mt-1">
-		          <div class="col-md-6 d-flex justify-content-center counter-wrap ftco-animate">
-		            <div class="block-18 p-5 bg-light">
-		              <div class="text">
-		                <strong class="number" data-number="6"></strong>лет
-						<span>Успешной работы</span>
-						<span>(с 2015 года)</span>
-
-		              </div>
-		            </div>
-		          </div>
-		          <div class="col-md-6 d-flex justify-content-center counter-wrap ftco-animate">
-		            <div class="block-18 p-5 bg-light">
-		              <div class="text">
-		                <span>Более</span>
-						<strong class="number" data-number="2000">0</strong>
-		                <span>Счастливых пациентов</span>
-		              </div>
-		            </div>
-		          </div>
-		          <div class="col-md-6 d-flex justify-content-center counter-wrap ftco-animate">
-		            <div class="block-18 p-5 bg-light">
-		              <div class="text">
-						<span>Более</span>
-		                <strong class="number" data-number="4000">0</strong>
-		                <span>Вылеченных зубов</span>
-		              </div>
-		            </div>
-		          </div>
-		          <div class="col-md-6 d-flex justify-content-center counter-wrap ftco-animate">
-		            <div class="block-18 p-5 bg-light">
-		              <div class="text">
-						<span>До</span>
-		                <strong class="number" data-number="800">0</strong>
-		                <span>Установленных имплантов</span>
-		              </div>
-		            </div>
-		          </div>
+    				<div class="bg-light work-mode__wrapper">
+		          <h4 class="work-mode__title">Время работы</h4>
+							<ul class="work-mode__list">
+								<li class="work-mode__item" data-day="1">
+									<dt class="work-mode__day">Понедельник</dt>
+									<dd class="work-mode__time">10:00 - 20:00</dd>
+								</li>
+								<li class="work-mode__item" data-day="2">
+									<dt class="work-mode__day">Вторник</dt>
+									<dd class="work-mode__time">10:00 - 20:00</dd>
+								</li>
+								<li class="work-mode__item" data-day="3">
+									<dt class="work-mode__day">Среда</dt>
+									<dd class="work-mode__time">10:00 - 20:00</dd>
+								</li>
+								<li class="work-mode__item" data-day="4">
+									<dt class="work-mode__day">Четверг</dt>
+									<dd class="work-mode__time">10:00 - 20:00</dd>
+								</li>
+								<li class="work-mode__item" data-day="5">
+									<dt class="work-mode__day">Пятница</dt>
+									<dd class="work-mode__time">10:00 - 20:00</dd>
+								</li>
+								<li class="work-mode__item" data-day="6">
+									<dt class="work-mode__day">Суббота</dt>
+									<dd class="work-mode__time">10:00 - 18:00</dd>
+								</li>
+								<li class="work-mode__item" data-day="0">
+									<dt class="work-mode__day">Воскресенье</dt>
+									<dd class="work-mode__time">Выходной</dd>
+								</li>
+							</ul>
 	          </div>
           </div>
         </div>
     	</div>
     </section>
+
+		<section class="bg-light contacts__map ftco-animate">
+			<iframe class="contacts__map-frame" src="https://yandex.ru/map-widget/v1/?z=12&ol=biz&oid=1383409068" width="560" height="500" frameborder="0"></iframe>
+		</section>
 
 		<section class="ftco-section bg-light">
 			<div class="container">
@@ -946,7 +947,7 @@
 	            </div>
 	            <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-3">
                 <li class="ftco-animate"><a href="https://vk.com/sklyarovdentalclinic" target="_blank" rel="noopener"><span class="icon-vk"></span></a></li>
-                <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+                <li class="ftco-animate"><a href="https://t.me/sdclinic32" target="_blank" rel="noopener"><span class="icon-telegram"></span></a></li>
               </ul>
             </div>
           </div>

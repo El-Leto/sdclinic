@@ -1,3 +1,7 @@
+const weekDays = document.querySelectorAll('.work-mode__item');
+const date = new Date(); 
+const getDayToday = date.getDay();
+
 $(window).scroll(function() {
   var height = $(window).scrollTop();
   if (height > 200) {
@@ -16,3 +20,13 @@ $(document).ready(function() {
   });
 
 });
+
+function getActiveDay() {
+  weekDays.forEach(function(item) {
+    if (+item.dataset.day === getDayToday) {
+      item.classList.add('work-mode__item--active');
+    }
+  });
+}
+
+getActiveDay();
