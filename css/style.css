@@ -10452,3 +10452,39 @@ table.table-width tr td:first-child {
 .uslugi-title-min--ortod::before {
   background-image: url('../images/uslugi-5.png');
 }
+
+.usluga-container {
+  display: grid;
+  grid-template-columns: 1fr 37%;
+}
+
+.usluga-image {
+  width: 100%;
+  height: auto;
+}
+
+.usluga-description {
+  margin-right: 50px;
+}
+
+@media (max-width: 768px) {
+  .usluga-container {
+    grid-template-columns: 1fr;
+  }
+
+  .usluga-description {
+    margin-right: 0;
+  }
+
+  .usluga-image {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .usluga-image-wrap {
+    height: 400px;
+  }
+}
